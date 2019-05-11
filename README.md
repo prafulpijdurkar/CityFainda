@@ -23,13 +23,13 @@ This repository is about  searching city from database, show it on exact locatio
 ## Demo:
 # Portrate #
 
-<img src="screens/Screenshot_port1.jpg" width="150" height="200">  <img src="screens/Screenshot_port2.jpg" width="150" height="200"> <img src="screens/Screenshot_port3.jpg" width="150" height="200">
+1. <img src="screens/Screenshot_port1.jpg" width="150" height="200">   2. <img src="screens/Screenshot_port2.jpg" width="150" height="200">   3. <img src="screens/Screenshot_port3.jpg" width="150" height="200">
 
 # Landscape #
 
 
 
-<img src="screens/Screenshot_land.jpg" width="400" height="150"> <img src="screens/Screenshot_land2.jpg" width="400" height="150">
+1. <img src="screens/Screenshot_land.jpg" width="400" height="150">    2. <img src="screens/Screenshot_land2.jpg" width="400" height="150">
 
 
 
