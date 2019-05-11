@@ -10,17 +10,22 @@ This repository is about  searching city from database, show it on exact locatio
 ## Demo:
 This application works in both the orientation.
 # Portrate #
-![CityFainda](screens/Screenshot_port1.jpg |width=100)
-![CityFainda](screens/Screenshot_port2.jpg=250x250)
-![CityFainda](screens/Screenshot_port3.jpg)
-<img src="screens/Screenshot_port3.jpg" width="100" height="100">
+
+<img src="screens/Screenshot_port1.jpg" width="150" height="200">
+
+<img src="screens/Screenshot_port2.jpg" width="150" height="200">
+
+<img src="screens/Screenshot_port3.jpg" width="150" height="200">
 
 
 
 # Landscape #
 
-![CityFainda](screens/Screenshot_land.jpg)
-![CityFainda](screens/Screenshot_land2.jpg)
+
+
+<img src="screens/Screenshot_land.jpg" width="150" height="200">
+
+<img src="screens/Screenshot_land2.jpg" width="150" height="200">
 
 
 ### What application Does ###
