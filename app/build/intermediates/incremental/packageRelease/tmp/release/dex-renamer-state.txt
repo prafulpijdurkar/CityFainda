@@ -1,4 +1,0 @@
-#Wed May 08 08:50:15 CDT 2019
-base.0=/Users/ppijd001/praful/projects/citylist/CityFinder/app/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
