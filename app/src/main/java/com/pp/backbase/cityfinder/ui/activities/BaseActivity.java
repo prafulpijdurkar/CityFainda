@@ -27,6 +27,9 @@ public class BaseActivity extends AppCompatActivity {
             case FRAGMENT_NAME_MAP:
                 String strTag = (orientation == Configuration.ORIENTATION_PORTRAIT) ? MapFragment.FRAG_NAME_PORTRATE : MapFragment.FRAG_NAME_LAND;
                 fragmentAdded = getFragmentByName(strTag);
+                if(!(fragmentAdded instanceof MapFragment)) {
+                    fragmentAdded = null;
+                }
                 if (fragmentAdded == null) {
                     fragmentAdded = MapFragment.newInstance();
                 }
@@ -52,8 +55,8 @@ public class BaseActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
         if (landscape) {
-
-            transaction.add(R.id.container1, fragment, tag);
+            if(!fragment.isAdded())
+                transaction.add(R.id.container1, fragment, tag);
 
 
         } else {
