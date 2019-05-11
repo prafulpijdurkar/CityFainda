@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.pp.backbase.cityfinder.R;
 import com.pp.backbase.cityfinder.base.MainApplication;
 import com.pp.backbase.cityfinder.models.CityItemModel;
-import com.pp.backbase.cityfinder.ui.activities.MainActivity;
 import com.pp.backbase.cityfinder.ui.fragment.CityFinderFragment;
 
 import java.util.ArrayList;
@@ -139,14 +138,12 @@ public class CityAdapter extends ArrayAdapter<CityItemModel> implements Filterab
             int count = list.size();
             final ArrayList<CityItemModel> nlist = new ArrayList<CityItemModel>(count);
 
-            CityItemModel cityItemModel ;
-
-            for (int i = 0; i < count; i++) {
-                cityItemModel = list.get(i);
+            for(CityItemModel cityItemModel:list) {
                 if (cityItemModel.getName().toLowerCase().startsWith(filterString)) {
                     nlist.add(cityItemModel);
                 }
             }
+
 
             results.values = nlist;
             results.count = nlist.size();
