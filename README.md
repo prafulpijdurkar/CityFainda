@@ -23,9 +23,9 @@ This application works in both the orientation.
 
 
 
-<img src="screens/Screenshot_land.jpg" width="150" height="200">
+<img src="screens/Screenshot_land.jpg" width="150" height="400">
 
-<img src="screens/Screenshot_land2.jpg" width="150" height="200">
+<img src="screens/Screenshot_land2.jpg" width="150" height="400">
 
 
 ### What application Does ###
